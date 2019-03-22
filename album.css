@@ -37,3 +37,21 @@ footer p {
 }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+#svgContainer {
+  position: relative;
+}
+.svgTopRight {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+}
+
+.svgTopRight path{
+  fill: #55595c;
+}
+
+.svgTopRight .logo-circle{
+  fill: #57b7c7;
+}
