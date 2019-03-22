@@ -55,3 +55,10 @@ footer p {
 .svgTopRight .logo-circle{
   fill: #57b7c7;
 }
+
+.card .logo {
+  background-color: #55595c;
+  text-align: center;
+  color: #eceeef;
+  padding-bottom: 30px;
+}
