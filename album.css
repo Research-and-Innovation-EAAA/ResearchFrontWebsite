@@ -1,12 +1,19 @@
 :root {
-  --jumbotron-padding-y: 3rem;
+  --jumbotron-padding-y: 1rem;
 }
+h2{
+  font-size:25px;
+  letter-spacing:1px;
+  margin:15px;
+}
+
 
 .jumbotron {
   padding-top: var(--jumbotron-padding-y);
   padding-bottom: var(--jumbotron-padding-y);
   margin-bottom: 0;
-  background-color: #fff;
+
+
 }
 @media (min-width: 768px) {
   .jumbotron {
@@ -15,50 +22,101 @@
   }
 }
 
+
+.mb-4{
+  width:100%;
+}
+
+
+.col-md-4 {
+  position: relative;
+  display: flex;
+
+}
+
+
 .jumbotron p:last-child {
   margin-bottom: 0;
 }
 
+
 .jumbotron-heading {
-  font-weight: 300;
+  font-weight: 100;
+
 }
 
 .jumbotron .container {
-  max-width: 40rem;
-}
+  max-width: 300rem;
 
+}
 footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left:20px;
+  font-size: 18px;
+  display: flex;
 }
 
-footer p {
-  margin-bottom: .25rem;
-}
 
-.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+.box-shadow {     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);}
 
 #svgContainer {
   position: relative;
 }
+
 .svgTopRight {
   position: absolute;
   top: 0;
   right: 0;
-  width: 20%;
+  width: 11%;
 }
+
 
 .svgTopRight path{
   fill: #55595c;
 }
 
+
 .svgTopRight .logo-circle{
   fill: #57b7c7;
 }
 
+
 .card .logo {
-  background-color: #55595c;
   text-align: center;
-  color: #eceeef;
+  color: white;
   padding-bottom: 30px;
 }
+
+#color1{
+  background-color:#0e76bc;
+}
+#color2{
+  background-color:#ac2429;
+}
+#color3{
+  background-color:#ed8d1b;
+}
+
+
+.card{
+  transition: transform .2s;
+}
+
+.card a:hover{
+  text-decoration:none;
+}
+
+.card:hover{
+  transform: scale(1.1);
+  z-index:1;
+}
+
+.logo img{
+  margin-bottom:30px;
+}
+
+.btn btn-primary my-2{
+  position: absolute;
+}
+
