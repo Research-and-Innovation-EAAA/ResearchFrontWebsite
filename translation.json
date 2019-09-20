@@ -1,0 +1,35 @@
+{
+    "en": {
+      "element": {
+        "title": "Job Market demand",
+        "headline": "Job Market demand",
+        "description": "Research and innovation at the Business Academy Aarhus has built up a large database of job listings in Denmark. Since May 2018, all ad texts have been collected from the major job websites. Below you will find some tools that allow you to perform analyzes in the database.",
+        "contact-btn": "Contact",
+        "card1-h2": "Competence Analysis",
+        "card1-text": "Website to perform statistical analysis of job ad's competence demand.",
+        "card2-h2": "Database",
+        "card2-text": "Access to large database of current and historical job listings.",
+        "card3-h2": "Programming",
+        "card3-text": "Online statistical programming directly in the browser.",
+        "Footer": "Research and Innovation, Business Academy Aarhus",
+        "button": "Open"
+
+        }
+    },
+    "da": {
+        "element": {
+          "title": "Jobmarkedets efterspørgsel",
+          "headline": "Jobmarkedets efterspørgsel",
+          "description": "Forskning og innovation ved Erhvervsakademi Aarhus har opbygget en stor database over jobannoncer i Danmark. Løbende siden maj 2018 er alle annoncetekster indsamlet fra de største job websites. Nedenfor finder du nogle værktøjer, som giver adgang til at gennemføre analyser i databasen.",
+          "contact-btn": "Kontakt",
+          "card1-h2": "Kompetenceanalyse",
+          "card1-text": "Website til at udføre statistiske analyser af jobannoncers kompetenceefterspørgsel.",
+          "card2-h2": "Database",
+          "card2-text": "Adgang til stor database med nuværende og historiske jobannoncer.",
+          "card3-h2": "Programmering",
+          "card3-text": "Online statistisk programmering direkte i browseren.",
+          "Footer": " Forskning og Innovation, Erhvervsakademi Aarhus",
+          "button": "Åben"
+        }
+    }
+}
