@@ -86,9 +86,8 @@ function t($key, $variables = array()) {
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <a class="logo" id="color1" href="https://skills.forskning.eaaa.dk/CompetenceAnalysis">
-                            <h2><?php
-                                echo ' ' . t('element.card1-h2');?></h2>
+                        <a class="logo" id="color1" href="<?php echo ' ' . t('element.URL');?>">
+                            <h2><?php echo ' ' . t('element.card1-h2');?></h2>
                             <i class="fas fa-chart-line fa-5x"></i>
                         </a>
 
@@ -97,8 +96,9 @@ function t($key, $variables = array()) {
                                 echo ' ' . t('element.card1-text');?></p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='https://skills.forskning.eaaa.dk/CompetenceAnalysis';"><?php
-                                        echo ' ' . t('element.button');?></button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="<?php echo 'location.href=\''.t('element.URL').'\'';?>">
+                                        <?php echo ' ' . t('element.button');?>
+                                    </button>
                                 </div>
                             </div>
                         </div>

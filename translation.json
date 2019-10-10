@@ -12,7 +12,8 @@
         "card3-h2": "Programming",
         "card3-text": "Online statistical programming directly in the browser.",
         "Footer": "Research and Innovation, Business Academy Aarhus",
-        "button": "Open"
+        "button": "Open",
+        "URL": "https://skills.forskning.eaaa.dk/en/CompetenceAnalysis/"
 
         }
     },
@@ -29,7 +30,8 @@
           "card3-h2": "Programmering",
           "card3-text": "Online statistisk programmering direkte i browseren.",
           "Footer": " Forskning og Innovation, Erhvervsakademi Aarhus",
-          "button": "Åben"
+          "button": "Åben",
+          "URL": "https://skills.forskning.eaaa.dk/da/CompetenceAnalysis/"
         }
     }
 }
