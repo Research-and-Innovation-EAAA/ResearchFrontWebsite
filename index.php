@@ -86,7 +86,7 @@ function t($key, $variables = array()) {
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <a class="logo" id="color1" href="https://forskning.eaaa.dk/CompetenceAnalysis/CompetenceAnalysis">
+                        <a class="logo" id="color1" href="https://skills.forskning.eaaa.dk/CompetenceAnalysis">
                             <h2><?php
                                 echo ' ' . t('element.card1-h2');?></h2>
                             <i class="fas fa-chart-line fa-5x"></i>
@@ -97,7 +97,7 @@ function t($key, $variables = array()) {
                                 echo ' ' . t('element.card1-text');?></p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='https://forskning.eaaa.dk/CompetenceAnalysis';"><?php
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='https://skills.forskning.eaaa.dk/CompetenceAnalysis';"><?php
                                         echo ' ' . t('element.button');?></button>
                                 </div>
                             </div>
@@ -107,7 +107,7 @@ function t($key, $variables = array()) {
 
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <a class="logo" id="color2"  href="https://forskning.eaaa.dk/phpMyAdmin">
+                        <a class="logo" id="color2"  href="https://phpmyadmin.forskning.eaaa.dk">
                             <h2><?php
                                 echo ' ' . t('element.card2-h2');?></h2>
                             <i class="fas fa-database fa-5x"></i>
@@ -117,7 +117,7 @@ function t($key, $variables = array()) {
                                 echo ' ' . t('element.card2-text');?></p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='https://forskning.eaaa.dk/phpmyadmin';"><?php
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='https://phpmyadmin.forskning.eaaa.dk';"><?php
                                         echo ' ' . t('element.button');?></button>
                                 </div>
                             </div>
@@ -127,7 +127,7 @@ function t($key, $variables = array()) {
 
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <a class="logo"  id="color3" href="https://forskning.eaaa.dk/rstudio">
+                        <a class="logo"  id="color3" href="https://rstudio.forskning.eaaa.dk">
                             <h2><?php
                                 echo ' ' . t('element.card3-h2');?></h2>
                             <i class="fas fa-laptop-code fa-5x"></i>
@@ -138,7 +138,7 @@ function t($key, $variables = array()) {
                                 echo ' ' . t('element.card3-text');?></p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='https://forskning.eaaa.dk/rstudio';"><?php
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='https://rstudio.forskning.eaaa.dk';"><?php
                                         echo ' ' . t('element.button');?></button>
                                 </div>
                             </div>
