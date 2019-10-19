@@ -66,22 +66,14 @@ function t($key, $variables = array()) {
 
 <div id="countContainer" style="padding-left:15px">
 
-<!-- <iframe
-  width="600"
-  height="100"
-  seamless
-  frameBorder="0"
-  scrolling="no"
-  src="https://superset-public.forskning.eaaa.dk/superset/explore/?form_data=%7B%22datasource%22%3A%2213__table%22%2C%22viz_type%22%3A%22big_number_total%22%2C%22slice_id%22%3A78%2C%22cache_timeout%22%3A360%2C%22url_params%22%3A%7B%7D%2C%22granularity_sqla%22%3A%22timeStamp%22%2C%22time_grain_sqla%22%3Anull%2C%22time_range%22%3A%22No+filter%22%2C%22metric%22%3A%22count%22%2C%22adhoc_filters%22%3A%5B%5D%2C%22subheader%22%3A%22Jobannoncer%22%2C%22y_axis_format%22%3A%22%2C.0f%22%2C%22header_font_size%22%3A0.5%2C%22subheader_font_size%22%3A0.4%7D&standalone=true&height=100"
->
-</iframe> -->
-
 <iframe
   width="600"
   height="100"
   seamless
   frameBorder="0"
   scrolling="no"
+  src="https://superset-public.forskning.eaaa.dk/superset/explore/?form_data=%7B%22datasource%22%3A%2213__table%22%2C%22viz_type%22%3A%22big_number_total%22%2C%22slice_id%22%3A78%2C%22cache_timeout%22%3A360%2C%22url_params%22%3A%7B%7D%2C%22granularity_sqla%22%3A%22timeStamp%22%2C%22time_grain_sqla%22%3Anull%2C%22time_range%22%3A%22No+filter%22%2C%22metric%22%3A%22count%22%2C%22adhoc_filters%22%3A%5B%5D%2C%22subheader%22%3A%22<?php
+  echo ' ' . t('element.Job-ads');?>%22%2C%22y_axis_format%22%3A%22%2C.0f%22%2C%22header_font_size%22%3A0.5%2C%22subheader_font_size%22%3A0.4%7D&standalone=true&height=100"
 >
 </iframe>
 
