@@ -13,8 +13,8 @@
         "card3-text": "Online statistical programming directly in the browser.",
         "Footer": "Research and Innovation, Business Academy Aarhus",
         "button": "Open",
-        "URL": "https://skills.forskning.eaaa.dk/en/CompetenceAnalysis/"
-
+        "URL": "https://skills.forskning.eaaa.dk/en/CompetenceAnalysis/",
+	"Job ads": "Job ads"
         }
     },
     "da": {
@@ -31,7 +31,8 @@
           "card3-text": "Online statistisk programmering direkte i browseren.",
           "Footer": " Forskning og Innovation, Erhvervsakademi Aarhus",
           "button": "Åbn",
-          "URL": "https://skills.forskning.eaaa.dk/da/CompetenceAnalysis/"
+          "URL": "https://skills.forskning.eaaa.dk/da/CompetenceAnalysis/",
+      	  "Job ads": "Jobannoncer"
         }
     }
 }
