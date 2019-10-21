@@ -26,9 +26,16 @@ h2{
 .mb-4{
   width:100%;
 }
-
+.mb-5{
+  width:100%;
+}
 
 .col-md-4 {
+  position: relative;
+  display: flex;
+
+}
+.col-md-5 {
   position: relative;
   display: flex;
 
@@ -68,7 +75,7 @@ footer {
   position: absolute;
   top: 0;
   right: 0;
-  height: 100px;
+  width: 11%;
 }
 
 
@@ -95,7 +102,17 @@ footer {
   background-color:#ac2429;
 }
 #color3{
+  background-color: #0074e1;
+}
+
+#color4{
+  background-color: #802bb1;
+}
+#color5{
   background-color:#ed8d1b;
+}
+#color6{
+  background-color: #14A76C;
 }
 
 

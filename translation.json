@@ -11,10 +11,17 @@
         "card2-text": "Access to large database of current and historical job listings.",
         "card3-h2": "Programming",
         "card3-text": "Online statistical programming directly in the browser.",
+        "card4-h2": "Superset",
+        "card4-text": "Online superset",
+        "card5-h2": "Wiki",
+        "card5-text": "Online Wiki",
+        "card6-h2": "Contact",
+        "card6-text": "Contact:<br/> Project manager <br/>Morten Mathiasen",
         "Footer": "Research and Innovation, Business Academy Aarhus",
         "button": "Open",
         "URL": "https://skills.forskning.eaaa.dk/en/CompetenceAnalysis/",
-	"Job-ads": "Job ads"
+        "Job-ads": "Job ads"
+
         }
     },
     "da": {
@@ -29,10 +36,16 @@
           "card2-text": "Adgang til stor database med nuværende og historiske jobannoncer.",
           "card3-h2": "Programmering",
           "card3-text": "Online statistisk programmering direkte i browseren.",
+          "card4-h2": "Superset",
+          "card4-text": "Online superset.",
+          "card5-h2": "WiKi",
+          "card5-text": "Online WiKi.",
+          "card6-h2": "Kontakt",
+          "card6-text": "Kontakt:<br/>Projektleder<br/>Morten Mathiasen",
           "Footer": " Forskning og Innovation, Erhvervsakademi Aarhus",
           "button": "Åbn",
           "URL": "https://skills.forskning.eaaa.dk/da/CompetenceAnalysis/",
-      	  "Job-ads": "Jobannoncer"
+          "Job-ads": "Jobannoncer"
         }
     }
 }
