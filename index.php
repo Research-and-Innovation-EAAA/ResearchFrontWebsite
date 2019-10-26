@@ -77,6 +77,27 @@ function t($key, $variables = array()) {
 >
 </iframe>
 -->
+    <div style="height: 100px;">
+        <div style="display: table-cell;
+        height: 100px;
+        padding-left: 10px;
+        vertical-align: middle;">
+            <?php
+            $link = mysqli_connect("forskning.eaaa.dk", "jobanalyser", "jobanalyser1234", "jobdb");
+            if (!$link) {
+                echo "Error: Unable to connect to MySQL." . PHP_EOL;
+                echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
+                echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
+                exit;
+            }
+            $result = mysqli_query($link, "select count(*) as adcount from annonce");
+            $row = mysqli_fetch_assoc($result);
+            echo "<H1 class=\"jumbotron-heading\">".number_format ( $row['adcount'], 0, t('element.decimalseperator'), t('element.thousandsseperator') ).
+                "</H1><p class=\"lead text-muted\">".t('element.Job-ads')."</p>";
+            mysqli_close($link);
+            ?>
+        </div>
+    </div>
 
     </div>
 <main role="main">

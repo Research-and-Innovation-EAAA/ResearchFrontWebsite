@@ -20,8 +20,9 @@
         "Footer": "Research and Innovation, Business Academy Aarhus",
         "button": "Open",
         "URL": "https://skills.forskning.eaaa.dk/en/CompetenceAnalysis/",
-        "Job-ads": "Job ads"
-
+        "Job-ads": "Job ads",
+        "thousandsseperator": ",",
+        "decimalseperator": "."
         }
     },
     "da": {
@@ -45,7 +46,9 @@
           "Footer": " Forskning og Innovation, Erhvervsakademi Aarhus",
           "button": "Åbn",
           "URL": "https://skills.forskning.eaaa.dk/da/CompetenceAnalysis/",
-          "Job-ads": "Jobannoncer"
+          "Job-ads": "Jobannoncer",
+          "thousandsseperator": ".",
+          "decimalseperator": ","
         }
     }
 }
