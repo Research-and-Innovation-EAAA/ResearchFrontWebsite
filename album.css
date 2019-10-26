@@ -69,13 +69,14 @@ footer {
 
 #svgContainer {
   position: relative;
+  vertical-align: middle;
 }
 
 .svgTopRight {
   position: absolute;
   top: 0;
   right: 0;
-  width: 11%;
+  height: 100px;
 }
 
 
