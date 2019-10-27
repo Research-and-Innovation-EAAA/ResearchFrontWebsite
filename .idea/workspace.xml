@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="508e877b-b8b9-43fe-a180-f55c59df32d7" name="Default Changelist" comment="Removing uneceserry comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/translation.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,20 +34,21 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="C:\Users\vgv\PhpstormProjects\ResearchFrontWebsite" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="C:\Users\mmat\WebstormProjects\ResearchFrontpage" />
       <recent name="C:\Users\mmat\WebstormProjects\ResearchFrontpage\old" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\vgv\PhpstormProjects\ResearchFrontWebsite" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -102,6 +102,7 @@
       <workItem from="1571498805403" duration="1685000" />
       <workItem from="1572064820171" duration="2071000" />
       <workItem from="1572072212577" duration="1051000" />
+      <workItem from="1572148228274" duration="2620000" />
     </task>
     <task id="LOCAL-00001" summary="Spelling fixed">
       <created>1553242221113</created>
@@ -131,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571504151668</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Translate SVG logo">
+      <created>1572149532210</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572149532211</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +163,7 @@
     <MESSAGE value="Implemented Translation" />
     <MESSAGE value="Removing unnecessary comments" />
     <MESSAGE value="Display number of job ads" />
-    <option name="LAST_COMMIT_MESSAGE" value="Display number of job ads" />
+    <MESSAGE value="Translate SVG logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Translate SVG logo" />
   </component>
 </project>
