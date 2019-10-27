@@ -241,8 +241,7 @@ function t($key, $variables = array()) {
 <footer class="text-muted">
     <p class="float-center">
     </p>
-    <p>&copy; <?php
-        echo ' ' . t('element.Footer');?></p>
+    <p><?php echo "Copyright &copy; ".date("Y")."<br/>".t('element.Footer'); ?></p>
 </footer>
 
 
