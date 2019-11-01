@@ -1,5 +1,6 @@
 <?php
 require 'src/i18next.php';
+require 'src/credentials.php';
 
 use Aiken\i18next\i18next;
 
@@ -71,7 +72,13 @@ function t($key, $variables = array()) {
         padding: 5px;
         vertical-align: middle;">
             <?php
-            $link = mysqli_connect("forskning.eaaa.dk", "jobanalyser", "jobanalyser1234", "jobdb");
+            $link = mysqli_connect(
+                    $GLOBALS["database_host"],
+                    $GLOBALS["database_user"],
+                    $GLOBALS["database_password"],
+                    $GLOBALS["database_db"],
+                    $GLOBALS["database_port"]);
+
             if (!$link) {
                 echo "Error: Unable to connect to MySQL." . PHP_EOL;
                 echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;

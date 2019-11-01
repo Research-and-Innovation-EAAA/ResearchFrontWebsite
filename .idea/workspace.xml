@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="508e877b-b8b9-43fe-a180-f55c59df32d7" name="Default Changelist" comment="Removing uneceserry comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
