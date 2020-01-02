@@ -73,11 +73,11 @@ function t($key, $variables = array()) {
         vertical-align: middle;">
             <?php
             $link = mysqli_connect(
-                $GLOBALS["database_host"],
-                $GLOBALS["database_user"],
-                $GLOBALS["database_password"],
-                $GLOBALS["database_db"],
-                $GLOBALS["database_port"]);
+                    $GLOBALS["database_host"],
+                    $GLOBALS["database_user"],
+                    $GLOBALS["database_password"],
+                    $GLOBALS["database_db"],
+                    $GLOBALS["database_port"]);
 
             if (!$link) {
                 echo "Error: Unable to connect to MySQL." . PHP_EOL;
@@ -94,7 +94,7 @@ function t($key, $variables = array()) {
         </div>
     </div>
 
-</div>
+    </div>
 <main role="main">
 
     <section class="jumbotron text-center">
@@ -268,8 +268,7 @@ function t($key, $variables = array()) {
 <footer class="text-muted">
     <p class="float-center">
     </p>
-    <p>&copy; <?php
-        echo ' ' . t('element.Footer');?></p>
+    <p><?php echo "Copyright &copy; ".date("Y")."<br/>".t('element.Footer'); ?></p>
 </footer>
 
 

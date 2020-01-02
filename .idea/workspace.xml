@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="508e877b-b8b9-43fe-a180-f55c59df32d7" name="Default Changelist" comment="Removing uneceserry comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/i18next.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18next.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,16 +23,10 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>href</find>
-      <find>docs</find>
-      <find>fill</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
   <component name="ProjectId" id="1R5vKhUbxFeTFqF4eLQqzu69T9e" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -40,16 +34,19 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="C:\Users\vgv\PhpstormProjects\ResearchFrontWebsite" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="C:\Users\mmat\WebstormProjects\ResearchFrontpage" />
       <recent name="C:\Users\mmat\WebstormProjects\ResearchFrontpage\old" />
     </key>
@@ -67,7 +64,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Run" type="JavascriptDebugType" uri="http://localhost:63342/ResearchFrontWebsite/index.html">
+    <configuration name="TestPage" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="1080">
+      <CommandLine workingDirectory="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
   </component>
@@ -100,6 +98,11 @@
       <workItem from="1568100363968" duration="1178000" />
       <workItem from="1568969709915" duration="1472000" />
       <workItem from="1568975546653" duration="405000" />
+      <workItem from="1571497759816" duration="503000" />
+      <workItem from="1571498805403" duration="1685000" />
+      <workItem from="1572064820171" duration="2071000" />
+      <workItem from="1572072212577" duration="1051000" />
+      <workItem from="1572148228274" duration="2620000" />
     </task>
     <task id="LOCAL-00001" summary="Spelling fixed">
       <created>1553242221113</created>
@@ -122,7 +125,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568975792809</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Display number of job ads">
+      <created>1571504151668</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571504151668</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Translate SVG logo">
+      <created>1572149532210</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572149532211</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +162,8 @@
     <MESSAGE value="Spelling fixed" />
     <MESSAGE value="Implemented Translation" />
     <MESSAGE value="Removing unnecessary comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing unnecessary comments" />
+    <MESSAGE value="Display number of job ads" />
+    <MESSAGE value="Translate SVG logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Translate SVG logo" />
   </component>
 </project>
