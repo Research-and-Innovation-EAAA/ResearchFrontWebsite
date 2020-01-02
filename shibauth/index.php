@@ -9,8 +9,10 @@
 // Include the Shibboleth attributes you intend to test here
 $attributes = array(
    'displayName', 
-   'mail', 
-   'eduPersonPrincipalName', 
+   'MAIL', 
+   'eduPersonPrincipalName',
+   'REMOTE_USER',
+   'Shib-EP-UnscopedAffiliation', 
    'organizationName', 
    'preferredLanguage', 
    'schacHomeOrganization'
