@@ -134,7 +134,7 @@ function t($key, $variables = array()) {
                     </div>
                 </div>
                 <!---card4-->
-                <div class="col-md-4">
+                <!--- <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
                         <a class="logo" id="color4"  href="https://superset.forskning.eaaa.dk">
                             <h2><?php
@@ -147,6 +147,27 @@ function t($key, $variables = array()) {
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='https://superset.forskning.eaaa.dk';"><?php
+                                        echo ' ' . t('element.button');?></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!----card7-->
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <a class="logo"  id="color7" href="https://forskning.eaaa.dk/CompetenceJSONEditor/">
+                            <h2><?php
+                                echo ' ' . t('element.card7-h2');?></h2>
+                            <i class="fas fa-tools fa-5x"></i>
+                        </a>
+
+                        <div class="card-body">
+                            <p class="card-text"><?php
+                                echo ' ' . t('element.card7-text');?></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='https://forskning.eaaa.dk/CompetenceJSONEditor/';"><?php
                                         echo ' ' . t('element.button');?></button>
                                 </div>
                             </div>
@@ -231,27 +252,6 @@ function t($key, $variables = array()) {
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='https://www.eaaa.dk/kontakt/find-medarbejder/morten-mathiasen';"><?php
-                                        echo ' ' . t('element.button');?></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!----card7-->
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <a class="logo"  id="color7" href="https://forskning.eaaa.dk/CompetenceJSONEditor/">
-                            <h2><?php
-                                echo ' ' . t('element.card7-h2');?></h2>
-                            <i class="fas fa-tools fa-5x"></i>
-                        </a>
-
-                        <div class="card-body">
-                            <p class="card-text"><?php
-                                echo ' ' . t('element.card7-text');?></p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='https://forskning.eaaa.dk/CompetenceJSONEditor/';"><?php
                                         echo ' ' . t('element.button');?></button>
                                 </div>
                             </div>
