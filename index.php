@@ -240,7 +240,7 @@ function t($key, $variables = array()) {
                 <!----card6-->
                 <div class="col-md-4">
                     <div class="card mb-4 box-shadow">
-                        <a class="logo"  id="color6" href="https://www.eaaa.dk/kontakt/find-medarbejder/morten-mathiasen">
+                        <a class="logo"  id="color6" href="https://www.eaaa.dk/kontakt/find-medarbejder/medarbejder/morten-mathiasen">
                             <h2><?php
                                 echo ' ' . t('element.card6-h2');?></h2>
                             <i class="fas fa-user fa-5x"></i>
