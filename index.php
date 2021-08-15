@@ -113,7 +113,7 @@ function t($key, $variables = array()) {
 
             <div class="row">
                 <!---card1-->
-                <div class="col-md-4">
+                <div id="card-competence-analysis" class="col-md-4 collapse multi-collapse">
                     <div class="card mb-4 box-shadow">
                         <a class="logo" id="color1" href="<?php echo ' ' . t('element.URL');?>">
                             <h2><?php echo ' ' . t('element.card1-h2');?></h2>
@@ -134,7 +134,7 @@ function t($key, $variables = array()) {
                     </div>
                 </div>
                 <!---card4-->
-                <!--- <div class="col-md-4">
+                <div id="card-superset" class="col-md-4 collapse multi-collapse">
                     <div class="card mb-4 box-shadow">
                         <a class="logo" id="color4"  href="https://superset.forskning.eaaa.dk">
                             <h2><?php
@@ -152,9 +152,9 @@ function t($key, $variables = array()) {
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
                 <!----card7-->
-                <div class="col-md-4">
+                <div id="card-competence-json-editor" class="col-md-4 collapse multi-collapse">
                     <div class="card mb-4 box-shadow">
                         <a class="logo"  id="color7" href="https://forskning.eaaa.dk/CompetenceJSONEditor/">
                             <h2><?php
@@ -175,7 +175,7 @@ function t($key, $variables = array()) {
                     </div>
                 </div>
                 <!---card5-->
-                <div class="col-md-4">
+                <div id="card-wiki" class="col-md-4 collapse multi-collapse">
                     <div class="card mb-4 box-shadow">
                         <a class="logo"  id="color5" href="https://wiki.forskning.eaaa.dk">
                             <h2><?php
@@ -196,7 +196,7 @@ function t($key, $variables = array()) {
                     </div>
                 </div>
                 <!---card2-->
-                <div class="col-md-4">
+                <div id="card-phpmyadmin" class="col-md-4 collapse multi-collapse">
                     <div class="card mb-4 box-shadow">
                         <a class="logo"  id="color2" href="https://phpmyadmin.forskning.eaaa.dk">
                             <h2><?php
@@ -216,8 +216,9 @@ function t($key, $variables = array()) {
                         </div>
                     </div>
                 </div>
+                
                 <!---card3-->
-                <div class="col-md-4">
+                <div id="card-programmering" class="col-md-4 collapse multi-collapse">
                     <div class="card mb-4 box-shadow">
                         <a class="logo"  id="color3" href="https://rstudio.forskning.eaaa.dk">
                             <h2><?php
@@ -238,9 +239,9 @@ function t($key, $variables = array()) {
                     </div>
                 </div>
                 <!----card6-->
-                <div class="col-md-4">
+                <div id="card-contact" class="col-md-4 collapse multi-collapse">
                     <div class="card mb-4 box-shadow">
-                        <a class="logo"  id="color6" href="https://www.eaaa.dk/kontakt/find-medarbejder/medarbejder/morten-mathiasen">
+                        <a class="logo"  id="color6" href="https://wiki.forskning.eaaa.dk/tiki-index.php?page=Hj%C3%A6lp&structure=Top">
                             <h2><?php
                                 echo ' ' . t('element.card6-h2');?></h2>
                             <i class="fas fa-user fa-5x"></i>
@@ -251,7 +252,7 @@ function t($key, $variables = array()) {
                                 echo ' ' . t('element.card6-text');?></p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='https://www.eaaa.dk/kontakt/find-medarbejder/morten-mathiasen';"><?php
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='https://wiki.forskning.eaaa.dk/tiki-index.php?page=Hj%C3%A6lp&structure=Top';"><?php
                                         echo ' ' . t('element.button');?></button>
                                 </div>
                             </div>
@@ -266,11 +267,23 @@ function t($key, $variables = array()) {
 </main>
 
 <footer class="text-muted">
-    <p class="float-center">
-    </p>
-    <p><?php echo "Copyright &copy; ".date("Y")."<br/>".t('element.Footer'); ?></p>
+    <!-- <p class="float-center">
+    </p> -->
+    <div class="container">
+    	 <div class="row">
+    	      <div class="col">
+	      	   <?php echo "Copyright &copy; ".date("Y")."<br/>".t('element.Footer'); ?>
+	      </div>
+    	      <div class="col" style="text-align: right">
+	         <button style="margin:12px !important" class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"><span id="admin-label" class="collapse multi-collapse">Administrator</span><span id="user-label" class="collapse multi-collapse">Bruger</span></button>
+	      </div>
+         </div>
+    </div>
 </footer>
 
+<script>
+	$('#admin-label,#card-competence-analysis,#card-wiki,#card-contact').collapse('show')
+</script>
 
 </body>
 </html>
