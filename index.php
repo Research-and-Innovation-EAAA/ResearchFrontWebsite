@@ -133,26 +133,6 @@ function t($key, $variables = array()) {
                         </div>
                     </div>
                 </div>
-                <!---card4-->
-                <div id="card-superset" class="col-md-4 collapse multi-collapse">
-                    <div class="card mb-4 box-shadow">
-                        <a class="logo" id="color4"  href="https://superset.forskning.eaaa.dk">
-                            <h2><?php
-                                echo ' ' . t('element.card4-h2');?></h2>
-                            <i class="fas fa-infinity fa-5x"></i>
-                        </a>
-                        <div class="card-body">
-                            <p class="card-text"><?php
-                                echo ' ' . t('element.card4-text');?></p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='https://superset.forskning.eaaa.dk';"><?php
-                                        echo ' ' . t('element.button');?></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <!----card7-->
                 <div id="card-competence-json-editor" class="col-md-4 collapse multi-collapse">
                     <div class="card mb-4 box-shadow">
@@ -189,6 +169,26 @@ function t($key, $variables = array()) {
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='https://wiki.forskning.eaaa.dk';"><?php
+                                        echo ' ' . t('element.button');?></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---card4-->
+                <div id="card-superset" class="col-md-4 collapse multi-collapse">
+                    <div class="card mb-4 box-shadow">
+                        <a class="logo" id="color4"  href="https://superset.forskning.eaaa.dk">
+                            <h2><?php
+                                echo ' ' . t('element.card4-h2');?></h2>
+                            <i class="fas fa-infinity fa-5x"></i>
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text"><?php
+                                echo ' ' . t('element.card4-text');?></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href='https://superset.forskning.eaaa.dk';"><?php
                                         echo ' ' . t('element.button');?></button>
                                 </div>
                             </div>
@@ -275,7 +275,7 @@ function t($key, $variables = array()) {
 	      	   <?php echo "Copyright &copy; ".date("Y")."<br/>".t('element.Footer'); ?>
 	      </div>
     	      <div class="col" style="text-align: right">
-	         <button style="margin:12px !important" class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"><span id="admin-label" class="collapse multi-collapse">Administrator</span><span id="user-label" class="collapse multi-collapse">Bruger</span></button>
+	         <button style="margin:12px !important" class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"><span id="admin-label" class="collapse multi-collapse"><?php echo ' ' . t('element.Administrator');?></span><span id="user-label" class="collapse multi-collapse"><?php echo ' ' . t('element.User');?></span></button>
 	      </div>
          </div>
     </div>
