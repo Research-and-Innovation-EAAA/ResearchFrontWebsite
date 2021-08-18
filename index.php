@@ -4,6 +4,7 @@ require 'src/credentials.php';
 
 use Aiken\i18next\i18next;
 
+
 function get_client_language($availableLanguages, $default='en'){
     if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
         $langs=explode(',',$_SERVER['HTTP_ACCEPT_LANGUAGE']);
