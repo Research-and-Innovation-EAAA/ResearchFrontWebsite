@@ -104,10 +104,18 @@ function t($key, $variables = array()) {
                 echo ' ' . t('element.headline');?></h1>
             <p class="lead text-muted"><?php
                 echo ' ' . t('element.description');?></p>
-
         </div>
 
     </section>
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <video width="100%" controls>
+              <source src="assets/video/Jobtrend-video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
 
     <div class="album py-5 bg-light">
         <div class="container">
