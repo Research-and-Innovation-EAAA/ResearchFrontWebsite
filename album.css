@@ -77,11 +77,12 @@ footer {
   }
 }
 
-.svgTopRight {
+.imgTopRight {
   position: absolute;
   top: 0;
   right: 0;
   height: 100px;
+  border:10px solid transparent;
 }
 
 .svgTopRight path{

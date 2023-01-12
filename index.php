@@ -114,7 +114,7 @@ function t($key, $variables = array()) {
               <source src="assets/video/Jobtrend-video.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
-	    <p style="text-align: center">produceret af: <a href="https://www.linkedin.com/in/sommer-chenet-b01a1212b/">Sommer Chenet</a></p>
+	    <p style="text-align: center"><?php echo ' ' . t('element.video-by');?></p>
         </div>
     </div>
 
